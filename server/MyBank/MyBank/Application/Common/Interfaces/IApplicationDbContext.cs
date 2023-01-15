@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using MyBank.Models;
+using MyBank.Domain.Entities;
 
 namespace MyBank.Application.Common.Interfaces
 {

@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/server/MyBank/.vs/MyBank/v17/.suo
+/server/MyBank/.vs/MyBank/FileContentIndex/9e6961da-0158-469e-b231-72af0aa2ced4.vsidx
+/server/MyBank/.vs/MyBank/FileContentIndex/7d2e98ef-5f80-4971-8ca0-b41a46346516.vsidx
+/server/MyBank/.vs/MyBank/FileContentIndex/7b7d559a-9738-49a2-8119-d8f8c7a2088c.vsidx
+*.vsidx
+/server/MyBank/.vs/MyBank/FileContentIndex/d91d5631-466c-4047-bcb9-39fc6bb3cc40.vsidx
+/server/MyBank/.vs/MyBank/DesignTimeBuild/.dtbcache.v2
+/server/MyBank/.vs/MyBank/FileContentIndex/d4714657-1ff6-442c-abdf-eb7928a3eba6.vsidx
+/server/MyBank/.vs/MyBank/FileContentIndex/e4faed8a-567c-43d5-b5eb-ff1a512dce89.vsidx

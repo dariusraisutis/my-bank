@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using MyBank.Application.Common.Interfaces;
-using MyBank.Models;
+using MyBank.Domain.Entities;
+using MyBank.Domain.Events;
 
 namespace MyBank.Application.Users.Commands.CreateUser
 {
@@ -28,8 +29,11 @@ namespace MyBank.Application.Users.Commands.CreateUser
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 UserName = request.UserName,
-                Password = request.Password
             };
+
+            entity.AddDomainEvent(new UserCreatedEvent(entity));
+
+            _context.Users.Add(entity);
 
             await _context.SaveChangesAsync(cancellationToken);
 
